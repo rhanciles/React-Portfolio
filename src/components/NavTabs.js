@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import "../components/styles/Fonts.css";
+import "../components/styles/NavTabs.css";
 
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="navbar navbar-expand-lg navbar-light bg-light customNav">
+      <li className="nav-item active">
         <NavLink
           to="/"
           end
@@ -32,7 +34,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Blog
+          Projects
         </NavLink>
       </li>
       <li className="nav-item">
@@ -46,7 +48,15 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Venues</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Artists</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Upcoming Acts</a>
+            
         <NavLink
           to="contact/learn"
           className={({ isActive }) =>
@@ -55,6 +65,7 @@ function NavTabs() {
         >
           Learn
         </NavLink>
+        </div>
       </li>
     </ul>
   );
