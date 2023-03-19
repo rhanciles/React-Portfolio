@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/NavTabs';
+import Navbar from './components/pages/Navbar';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Projects from './components/pages/Projects';
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavTabs />
+        <Navbar />
         {/* Wrap Route elements in a Routes component */}
         <Routes>
           {/* Define routes using the Route component to render different page components at different paths */}
