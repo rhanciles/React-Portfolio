@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import "../components/styles/Fonts.css";
-import "../components/styles/NavTabs.css";
+// import "../components/styles/Fonts.css";
+// import "../components/styles/NavTabs.css";
 
 function NavTabs() {
   return (
@@ -48,15 +48,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact</a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Venues</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Artists</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Upcoming Acts</a>
-            
+      <li className="nav-item">
         <NavLink
           to="contact/learn"
           className={({ isActive }) =>
@@ -65,7 +57,6 @@ function NavTabs() {
         >
           Learn
         </NavLink>
-        </div>
       </li>
     </ul>
   );
