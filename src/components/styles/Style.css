@@ -1,0 +1,69 @@
+:root {
+  /* Set default colours */
+  --PriColour: #080202;
+  --PTrColour: #08020273;
+  --SecColour: #ffffff;
+}
+
+html, 
+body {
+  /* width: 100%; */
+  /* margin: 20%; */
+  background-image: url(../images/510052_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 30px);
+}
+
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Anton', sans-serif;
+  }
+  p {
+    font-family: 'Jura', sans-serif;
+  }
+  .navCTA {
+    font-size: 15px;
+  }
+
+  .card {
+    box-shadow: inset 0 -0.5em 3em var(--SecColour), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em var(--PriColour);
+    color: var(--SecColour) !important;
+    border-radius: 10px !important;
+    background-color: var(--PTrColour) !important;
+}
+
+.pageContent {
+  display: flex;
+  /* justify-content: center !important; */
+  align-items: center !important;
+  margin-left: 20%;
+  margin-right: 20%;
+  gap: 2% !important;
+}
+
+.sideCard {
+  display: flex;
+  align-self: flex-end;
+  margin: 0px !important;
+  max-width: 300px;
+  height: 600px !important;
+}
+
+.mainCard {
+  align-self: flex-start;
+  max-width: 800px !important;
+  /* min-width: 300px; */
+  height: 600px !important;
+}
+
+.card-title {
+  text-decoration: underline;
+  margin-bottom: 20px !important;
+  font-weight: 700;
+}
+
+#heading {
+  
+}
+

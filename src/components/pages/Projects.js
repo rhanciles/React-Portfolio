@@ -3,19 +3,34 @@ import React from "react";
 function Projects() {
   return (
     <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque
-        turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat.
-        Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum
-        nunc, sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi
-        justo laoreet risus, luctus luctus mi lacus sit amet libero. Class aptent taciti sociosqu ad
-        litora torquent per conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-        tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec
-        placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum in velit pellentesque
-        vehicula sit amet at augue. Maecenas aliquam bibendum congue. Pellentesque semper, lectus
-        non ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
+      <section className="pageContent">
+        <div className="col mb-4">
+          <div className="card sideCard">
+            {/* <img src="./images/Bootstrap-Pfolio2.jpg">className="card-img-top" alt="Image of Bootcamp Project Website"</img>  */}
+            <div className="card-body">
+              <h5 className="card-title">Roders</h5>
+              <p className="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            </div>
+            <div className="card-footer">
+              {/* <a href="https://rhanciles.github.io/Mini-Proj-Wk1/" className="btn btn-dark btn-two" target="_blank">Click Here</a> */}
+              <small className="text-muted txt-fix">To Visit Site</small>
+            </div>
+          </div>
+        </div>
+        <div className="col mb-4">
+          <div className="card mainCard">
+            {/* <img src="./images/Bootstrap-Pfolio3.jpg">className="card-img-top" alt="Image of the Furniture Store Website"</img> */}
+            <div className="card-body">
+              <h5 className="card-title">About Me</h5>
+              <p className="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+            </div>
+            <div className="card-footer">
+              {/* <a href="https://rhanciles.github.io/Furniture-Wk2/" className="btn btn-dark btn-two" target="_blank">Click Here</a> */}
+              <small className="text-muted txt-fix">To Visit Site</small>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

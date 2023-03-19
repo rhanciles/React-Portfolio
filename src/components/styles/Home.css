@@ -1,8 +1,8 @@
 .jumbotron {
-  background-image: url(../images/510052.jpg);
+  /* background-image: url(../images/510052_1.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
-  height: calc(100vh - 25px);
+  background-repeat: no-repeat; */
+  height: calc(100vh - 30px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,7 +12,7 @@
   width: 70%;
   min-width: 500px;
   max-width: 700px;
-  color: white;
+  color: var(--SecColour);
   text-align: center;
 }
 
@@ -26,8 +26,6 @@
 /* .lead {
   width: 100%;
 } */
-
-
 
 /* .header h1 {
   margin: 0;

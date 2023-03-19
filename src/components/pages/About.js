@@ -1,16 +1,42 @@
 import React from "react";
+import "../styles/About.css";
+import "../styles/Style.css";
+import rodsPic from "../images/rod-180722.jpg";
 
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <section className="pageContent jumbotron">
+        <div className="col mb-4">
+          <div className="card sideCard">
+            {/* <img src="./images/Bootstrap-Pfolio2.jpg">className="card-img-top" alt="Image of Bootcamp Project Website"</img>  */}
+            <div className="card-body">
+              <img src={rodsPic} alt="Roders"></img>
+              <h2 className="card-title">Roders</h2>
+              <p className="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            </div>
+            <div className="card-footer">
+              {/* <a href="https://rhanciles.github.io/Mini-Proj-Wk1/" className="btn btn-dark btn-two" target="_blank">Click Here</a> */}
+              <small className="text-muted txt-fix">To Visit Site</small>
+            </div>
+          </div>
+        </div>
+        <div className="col mb-4">
+          <div className="card mainCard">
+            {/* <img src="./images/Bootstrap-Pfolio3.jpg">className="card-img-top" alt="Image of the Furniture Store Website"</img> */}
+            <div className="card-body">
+              <h2 className="card-title">About Me</h2>
+            
+              <p className="card-text"><span id="heading"><h4>Background:</h4></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+              <p><span id="heading"><h4>Clientele:</h4></span>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+            </div>
+            <div className="card-footer">
+              {/* <a href="https://rhanciles.github.io/Furniture-Wk2/" className="btn btn-dark btn-two" target="_blank">Click Here</a> */}
+              <small className="text-muted txt-fix">To Visit Site</small>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
