@@ -30,6 +30,17 @@ function Navbar() {
               About
             </NavLink>
           </li>
+          <li className="nav-item dropdown">
+          <NavLink
+              to="skills"
+              end
+              className={({ isActive }) =>
+                isActive ? 'nav-link active' : 'nav-link'
+              }
+            >
+              Skills
+            </NavLink>
+          </li>
           <li className="nav-item active">
             <NavLink
               to="projects"
@@ -50,17 +61,6 @@ function Navbar() {
               }
             >
               Contact
-            </NavLink>
-          </li>
-          <li className="nav-item dropdown">
-          <NavLink
-              to="skills"
-              end
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
-              Skills
             </NavLink>
           </li>
         </ul>

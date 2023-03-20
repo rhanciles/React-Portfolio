@@ -18,10 +18,11 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
-          <Route path="skills" element={<Skills />} />
+
         </Routes>
       </div>
     </Router>
