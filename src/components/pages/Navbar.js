@@ -54,13 +54,13 @@ function Navbar() {
           </li>
           <li className="nav-item dropdown">
           <NavLink
-              to="learn"
+              to="skills"
               end
               className={({ isActive }) =>
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Learn
+              Skills
             </NavLink>
           </li>
         </ul>
