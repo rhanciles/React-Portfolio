@@ -1,23 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6d77d5aa.css",
-    "main.js": "/React-Portfolio/static/js/main.9d53c1f6.js",
+    "main.css": "/React-Portfolio/static/css/main.8e4d77c0.css",
+    "main.js": "/React-Portfolio/static/js/main.c22ffb7c.js",
     "static/media/rod-180722.jpg": "/React-Portfolio/static/media/rod-180722.9e901a73f241d51ff83e.jpg",
-    "static/media/generate_password.jpg": "/React-Portfolio/static/media/generate_password.75b41f9da5055fda1fb8.jpg",
-    "static/media/Bootstrap-Portfolio.jpg": "/React-Portfolio/static/media/Bootstrap-Portfolio.514fbe83555a56a59011.jpg",
-    "static/media/SuperHero Game.jpg": "/React-Portfolio/static/media/SuperHero Game.9632b3419277ae2c03b8.jpg",
-    "static/media/Furniture-Store.jpg": "/React-Portfolio/static/media/Furniture-Store.9d8e244a2f45c833a714.jpg",
     "static/media/510052_1.jpg": "/React-Portfolio/static/media/510052_1.8c25546e1a6a53bd9354.jpg",
-    "static/media/Weather-Dash-Mock-up.jpg": "/React-Portfolio/static/media/Weather-Dash-Mock-up.31acf54495c1a9d8efaa.jpg",
     "static/media/bootstrap-icons.woff?": "/React-Portfolio/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
-    "static/media/Work-Day-Scheduler.jpg": "/React-Portfolio/static/media/Work-Day-Scheduler.cf62a852fd95c756dd68.jpg",
     "static/media/bootstrap-icons.woff2?": "/React-Portfolio/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "index.html": "/React-Portfolio/index.html",
-    "main.6d77d5aa.css.map": "/React-Portfolio/static/css/main.6d77d5aa.css.map",
-    "main.9d53c1f6.js.map": "/React-Portfolio/static/js/main.9d53c1f6.js.map"
+    "main.8e4d77c0.css.map": "/React-Portfolio/static/css/main.8e4d77c0.css.map",
+    "main.c22ffb7c.js.map": "/React-Portfolio/static/js/main.c22ffb7c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d77d5aa.css",
-    "static/js/main.9d53c1f6.js"
+    "static/css/main.8e4d77c0.css",
+    "static/js/main.c22ffb7c.js"
   ]
 }
