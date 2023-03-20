@@ -1,8 +1,40 @@
-/* .section {
-  background: #f3e5f5;
-  padding: 20px;
+#weather {
+  max-width: 800px;
 }
 
-.section h2 {
-  text-align: center;
-} */
+#hero {
+  max-width: 800px;
+}
+
+#password {
+  max-width: 800px;
+}
+
+#scheduler {
+  max-width: 800px;
+}
+
+#bootstrap {
+  max-width: 800px;
+}
+
+#furniture {
+  max-width: 800px;
+}
+
+.btn-projects {
+  background-color: var(--BtnColour) !important;
+  border-color: var(--BtnColour) !important;
+  box-shadow: 0.2em 0.2em 0.5em var(--PriColour);
+  font-weight: 600 !important;
+  margin-left: 50%;
+  width: 30%;
+
+}
+
+.btn-projects:hover {
+  color: var(--LnkColour) !important;
+  border-color: var(--LnkColour) !important;
+}
+
+
