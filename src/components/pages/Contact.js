@@ -1,34 +1,34 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import Learn from '../../testing';
 
-function Contact(props) {
+function Contact() {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="skills" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Routes>
-        <Route path="skills" element={<Learn />} />
-      </Routes>
+      <section className="pageContent jumbotron">
+        <div className="col mb-4">
+          <div className="card Card">
+            <form class="card-body">
+              <h5 class="card-title">Contact Us</h5>
+              <input class="form-control" type="text" placeholder="Name"/>
+              <input class="form-control" type="text" placeholder="Email"/>
+              <input class="form-control" type="text" placeholder="Contact No."/>
+              <p class="card-text">We'll love to hear from you.</p>              
+            </form>
+            <span class="contact-info">
+              <ul>
+                <li><a href="#"><i class="bi bi-geo-alt"></i> Address</a></li>
+                <li><p>100 Bootstrap Street</p></li>
+                <li><p>Web City</p></li>
+                <li><p>Northend</p></li>
+                <li><p>AB1 0CD</p></li>
+                <li><a href="#"><i class="bi bi-telephone"></i> +44 7474 778 899</a></li>
+                <li><a href="#"><i class="bi bi-envelope"></i> info@rodersportal.com</a></li>
+              </ul>      
+            </span>
+          </div>
+        </div>
+      </section>
     </div>
+
   );
 }
 
