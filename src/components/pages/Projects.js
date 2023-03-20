@@ -16,22 +16,22 @@ function Projects() {
               <Col sm={3}>
                 <Nav variant="pills" className="flex-column">
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-1">Profile</Nav.Link>
+                    <Nav.Link eventKey="Pro-1">Profile</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-2">Skills</Nav.Link>
+                    <Nav.Link eventKey="Pro-2">Skills</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-3">Experience</Nav.Link>
+                    <Nav.Link eventKey="Pro-3">Experience</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-4">Hobbies</Nav.Link>
+                    <Nav.Link eventKey="Pro-4">Hobbies</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-3">Experience</Nav.Link>
+                    <Nav.Link eventKey="Pro-6">Experience</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="tab-4">Hobbies</Nav.Link>
+                    <Nav.Link eventKey="Pro-6">Hobbies</Nav.Link>
                   </Nav.Item>
                 </Nav>
               </Col>

@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <section className="pageContent jumbotron">
-        <div className="col mb-4">
+        <div sm={5}>
           <div className="card sideCard">
             {/* <img src="./images/Bootstrap-Pfolio2.jpg">className="card-img-top" alt="Image of Bootcamp Project Website"</img>  */}
             <div className="card-body">
@@ -21,8 +21,8 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="col mb-4">
-          <div className="card mainCard">
+        <div sm={7}>
+          <div className="card mainCard aboutCard">
             {/* <img src="./images/Bootstrap-Pfolio3.jpg">className="card-img-top" alt="Image of the Furniture Store Website"</img> */}
             <div className="card-body">
               <h2 className="card-title">About Me</h2>

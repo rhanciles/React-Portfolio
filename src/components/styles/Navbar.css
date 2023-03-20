@@ -1,7 +1,7 @@
 .customNav {
   position: fixed;
   width: 100%;
-  height: 30px;
+  height: 20px;
   background-size: cover;
   z-index: 10;
   padding: 0px !important;
@@ -10,13 +10,14 @@
   background-color: var(--PriColour) !important;
 }
 .navbar-nav {
+  padding-top: 20px;
   margin-left: auto;
   margin-right: 0 !important;
 }
-.navbar-brand img {
+/* .navbar-brand img {
   padding-right: 15px;
   width: 65px;
-}
+} */
 .nav-item {
   margin: 0px 15px;
 }
