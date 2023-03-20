@@ -19,7 +19,7 @@ function Contact() {
               </div>         
             </form>
             <span className="contact-info">
-              <ul>
+              <ul id="address">
                 <li><a href="#"><i className="bi bi-geo-alt"></i> Address</a></li>
                 <li><p>100 Bootstrap Street</p></li>
                 <li><p>Web City</p></li>
@@ -27,6 +27,12 @@ function Contact() {
                 <li><p>AB1 0CD</p></li>
                 <li><a href="#"><i className="bi bi-telephone"></i> +44 7474 778 899</a></li>
                 <li><a href="#"><i className="bi bi-envelope"></i> info@rodersportal.com</a></li>
+              </ul>
+              <ul id="social-icons">
+                <li><a href="https://www.facebook.com/"><i className="bi bi-facebook"></i></a></li>
+                <li><a href="https://twitter.com/"><i className="bi bi-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i className="bi bi-linkedin"></i></a></li>
+                <li><a href="https://github.com/"><i className="bi bi-github"></i></a></li>
               </ul>      
             </span>
           </div>
