@@ -2,6 +2,18 @@
   margin-left: 15%;
 }
 
+.contact-info {
+  display: flex;
+  /* justify-content: space-between; */
+  margin-right: 20px;
+}
+
+#social-icons {
+  display: flex;
+  width: 50%;
+  justify-content: space-around !important;
+}
+
 .contact-info ul {
   list-style: none;
   margin-top: 10px !important;
@@ -19,11 +31,11 @@ li {
   color: var(--HltColour);
 }
 
-span ul li:last-child {
+#address li:last-child {
   margin-top: 10px;
 }
 
-span ul li:first-child {
+#address li:first-child {
   margin-bottom: 15px;
 }
 
