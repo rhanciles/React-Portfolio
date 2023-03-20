@@ -11,7 +11,7 @@ function About() {
           <div className="card sideCard">
             {/* <img src="./images/Bootstrap-Pfolio2.jpg">className="card-img-top" alt="Image of Bootcamp Project Website"</img>  */}
             <div className="card-body">
-              <img src={rodsPic} alt="Roders"></img>
+              <img id="superRod" src={rodsPic} alt="Roders"></img>
               <h2 className="card-title">Roders</h2>
               <p className="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
             </div>

@@ -1,7 +1,14 @@
 .nav-pills .nav-link.active {
   background-color: var(--BtnColour) !important;
+  border-color: var(--BtnColour) !important;
+  box-shadow: 0.2em 0.2em 0.5em var(--PriColour);
   color: var(--LnkColour) !important;
   margin-top: 10px;
+}
+
+.nav-link:hover {
+  color: var(--LnkColour) !important;
+  border-color: var(--LnkColour) !important;
 }
 
 .nav-link {
