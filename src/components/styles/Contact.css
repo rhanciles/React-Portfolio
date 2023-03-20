@@ -1,8 +1,55 @@
-.section {
-  background: #f3e5f5;
-  padding: 20px;
+.mainCard {
+  margin-left: 15%;
 }
 
-.section h2 {
-  text-align: center;
+.contact-info ul {
+  list-style: none;
+  margin-top: 10px !important;
 }
+
+li {
+  line-height: 0.5;
+}
+
+.contact-info li a {
+  color: var(--LnkColour);
+}
+
+.contact-info li a:hover {
+  color: var(--HltColour);
+}
+
+span ul li:last-child {
+  margin-top: 10px;
+}
+
+span ul li:first-child {
+  margin-bottom: 15px;
+}
+
+.card-body {
+  flex-grow: 0 !important;
+}
+
+.card-text {
+  margin-top: 10px;
+}
+
+.submitDiv {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--BtnColour) !important;
+  border-color: var(--BtnColour) !important;
+  box-shadow: 0.2em 0.2em 0.5em var(--PriColour);
+  margin-top: 2px;
+}
+
+button:hover {
+  color: var(--LnkColour) !important;
+  border-color: var(--LnkColour) !important;
+}
+

@@ -3,6 +3,9 @@
   --PriColour: #080202;
   --PTrColour: #08020273;
   --SecColour: #ffffff;
+  --BtnColour: #997675;
+  --LnkColour: #fcf2c5;
+  --HltColour: #ffea8b;
 }
 
 html, 
@@ -29,6 +32,7 @@ h1, h2, h3 , h4, h5, h6 {
     box-shadow: inset 0 -0.5em 3em var(--SecColour), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em var(--PriColour);
     color: var(--SecColour) !important;
+    font-weight: 500;
     border-radius: 10px !important;
     background-color: var(--PTrColour) !important;
 }
@@ -39,22 +43,28 @@ h1, h2, h3 , h4, h5, h6 {
   align-items: center !important;
   margin-left: 20%;
   margin-right: 20%;
-  gap: 2% !important;
+  gap: 4% !important;
 }
 
 .sideCard {
   display: flex;
   align-self: flex-end;
-  margin: 0px !important;
-  max-width: 300px;
+  overflow: hidden;
+  /* margin: 0px !important; */
+  /* max-width: 300px; */
   height: 600px !important;
 }
 
 .mainCard {
   align-self: flex-start;
-  max-width: 800px !important;
+  overflow: hidden;
+  /* max-width: 800px !important; */
   /* min-width: 300px; */
   height: 600px !important;
+}
+
+.aboutCard {
+  margin-left: -20px !important;
 }
 
 .card-title {
